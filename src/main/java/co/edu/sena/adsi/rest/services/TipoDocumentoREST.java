@@ -27,11 +27,11 @@ public class TipoDocumentoREST {
     public List<TipoDocumento> findAll(){
         return tipoDocumentoEJB.findAll();
     }
-    @GET
+    /*@GET
     public List<TipoDocumento> findId(){
 	//Prueba
 
         return tipoDocumentoEJB.findId();
     }
-    
+    */
 }
